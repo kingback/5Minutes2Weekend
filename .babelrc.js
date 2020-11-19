@@ -2,7 +2,7 @@ module.exports = {
   presets: [
     ['@babel/preset-env', {
       loose: true,
-      modules: process.env.BUILD_TYPE === 'esm' ? false : 'commonjs'
+      modules: process.env.PRESET_ENV_MODULES || false
     }]
   ],
   plugins: [
