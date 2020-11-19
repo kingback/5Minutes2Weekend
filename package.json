@@ -6,6 +6,7 @@
   "module": "esm/index.js",
   "scripts": {
     "test": "jest --coverage",
+    "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls",
     "build": "npm run build:lib & npm run build:esm",
     "build:lib": "del lib && babel src --out-dir lib",
     "build:esm": "del esm && BUILD_TYPE=esm babel src --out-dir esm",
