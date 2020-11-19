@@ -18,8 +18,8 @@
     "sv": "standard-version",
     "sv:beta": "standard-version --prerelease beta --skip.changelog --skip.tag",
     "push:tag": "git push --follow-tags origin main",
-    "pub:beta": "npm publish --registry https://registry.npmjs.org --tag beta",
-    "pub": "npm publish --registry https://registry.npmjs.org",
+    "pub:beta": "npm publish --tag beta",
+    "pub": "npm publish",
     "release:github": "conventional-github-releaser -p angular",
     "release:beta": "npm run sv:beta && git push && npm run pub:beta",
     "release": "npm run sv && npm run push:tag && npm run pub && npm run release:github"
@@ -76,5 +76,8 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
   }
 }
