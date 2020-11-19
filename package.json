@@ -5,7 +5,8 @@
   "main": "lib/index.js",
   "module": "esm/index.js",
   "scripts": {
-    "commit": "cz",
+    "commit": "git add . -A && cz",
+    "push": "npm run commit && git push",
     "test": "jest --coverage",
     "coveralls": "npm run test && cat ./coverage/lcov.info | coveralls",
     "build": "npm run build:lib & npm run build:esm",
