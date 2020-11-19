@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.0](https://github.com/kingback/5Minutes2Weekend/compare/v2.0.0...v3.0.0) (2020-11-19)
+
+
+### ⚠ BREAKING CHANGES
+
+* **github:** asldhasdahdas
+
+### Features
+
+* **github:** update  github release ([3e5825b](https://github.com/kingback/5Minutes2Weekend/commit/3e5825b9f8783659f137e092b9d68d4b8f4f9f44)), closes [#345](https://github.com/kingback/5Minutes2Weekend/issues/345)
+
 ## [2.0.0](https://github.com/kingback/5Minutes2Weekend/compare/v2.0.0-beta.0...v2.0.0) (2020-11-19)
 
 ## [2.0.0-beta.0](https://github.com/kingback/5Minutes2Weekend/compare/v1.1.2...v2.0.0-beta.0) (2020-11-19)
