@@ -12,7 +12,11 @@
     "build:esm": "del esm && BUILD_TYPE=esm babel src --out-dir esm",
     "eslint": "eslint src/** --fix",
     "prepublishOnly": "npm run build",
-    "release": "standard-version && git push --follow-tags origin main && npm publish && conventional-github-releaser -p angular"
+    "release": "standard-version",
+    "push:tag": "git push --follow-tags origin main",
+    "pub:beta": "npm publish --tag=beta",
+    "pub": "npm publish",
+    "release:github": "CONVENTIONAL_GITHUB_RELEASER_TOKEN=be25d65fbc8875faa998911b1e528f17ad326344 conventional-github-releaser -p angular"
   },
   "husky": {
     "hooks": {
