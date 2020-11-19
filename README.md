@@ -28,5 +28,6 @@ How to create a wonderful npm package
 * <https://efe.baidu.com/blog/front-end-continuous-integration-tools/>
 * <http://www.ruanyifeng.com/blog/2017/12/travis_ci_tutorial.html>
 * <https://medium.com/@ollelauribostr/start-measuring-coverage-with-jest-travis-ci-and-coveralls-1867928aca42>
+* <https://docs.npmjs.com/configuring-your-registry-settings-as-an-npm-enterprise-user>
 
 
