@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.0.1](https://github.com/kingback/5Minutes2Weekend/compare/v3.0.0...v3.0.1) (2020-11-19)
+
+
+### Bug Fixes
+
+* **jest:** fix babelrc ([34153bc](https://github.com/kingback/5Minutes2Weekend/commit/34153bcca05d499f7074a05823a3fa601a946243))
+* **npm:** fix npm publish ([115c880](https://github.com/kingback/5Minutes2Weekend/commit/115c8806fdeb113e1b9a32401b21177edc17c244))
+* **npm:** npm pub ([2810959](https://github.com/kingback/5Minutes2Weekend/commit/2810959f40c6f2f4693d66bf71b9fa333dd27bf4))
+* **npm:** npm publish registry ([41e0025](https://github.com/kingback/5Minutes2Weekend/commit/41e0025a2d60d9c4f678b2981bd8c3a0da384eed)), closes [#1](https://github.com/kingback/5Minutes2Weekend/issues/1)
+
 ## [3.0.0](https://github.com/kingback/5Minutes2Weekend/compare/v2.0.0...v3.0.0) (2020-11-19)
 
 
