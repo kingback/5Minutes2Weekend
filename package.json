@@ -12,7 +12,7 @@
     "build:esm": "del esm && BUILD_TYPE=esm babel src --out-dir esm",
     "eslint": "eslint src/** --fix",
     "prepublishOnly": "npm run build",
-    "release": "standard-version && git push --follow-tags origin main && npm publish"
+    "release": "standard-version && git push --follow-tags origin main && npm publish && conventional-github-releaser -p angular"
   },
   "husky": {
     "hooks": {
@@ -46,6 +46,7 @@
     "@babel/preset-env": "^7.12.1",
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
+    "conventional-github-releaser": "^3.1.5",
     "coveralls": "^3.1.0",
     "del-cli": "^3.0.1",
     "eslint": "^7.13.0",
