@@ -13,6 +13,7 @@ How to create a wonderful npm package
 * travis-cli
 * license: BSD/MIT
 * tests: jest
+* commit: commitlint/husky
 * release/changelog: standard-version
 
 
