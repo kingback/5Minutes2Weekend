@@ -15,12 +15,12 @@
     "eslint": "eslint src/** --fix",
     "prepublishOnly": "npm run build",
     "sv": "standard-version",
-    "sv:beta": "standard-version --prerelease beta",
+    "sv:beta": "standard-version --prerelease beta --skip.changelog --skip.tag",
     "push:tag": "git push --follow-tags origin main",
     "pub:beta": "npm publish --tag beta",
     "pub": "npm publish",
     "release:github": "conventional-github-releaser -p angular",
-    "release:beta": "npm run sv:beta && npm run push:tag && npm run pub:beta",
+    "release:beta": "npm run sv:beta && git push && npm run pub:beta",
     "release": "npm run sv && npm run push:tag && npm run pub && npm run release:github"
   },
   "husky": {
